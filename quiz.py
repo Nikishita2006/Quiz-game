@@ -67,7 +67,7 @@ def quiz(q,t):
         else:
             print("Incorrect answer, The correct answer is{}".format(q["answer"]))
             score=score-0
-        print("Congratulations {}, The quiz is over and your final score is{}".format(t,score))
+    print("Congratulations {}, The quiz is over and your final score is{}".format(t,score))
 
 menu()
             
