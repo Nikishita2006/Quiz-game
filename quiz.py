@@ -60,7 +60,7 @@ def quiz(q,t):
     score=0
     for item in q:
         print(item["question"])
-        p=q["answer"]
+        p=item["answer"]
         n=input("Enter your answer:")
         if(n.strip().lower()==item["answer"].lower()):
             print("Correct answer")
