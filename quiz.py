@@ -60,13 +60,13 @@ def quiz(q,t):
     score=0
     for item in q:
         print(item["question"])
-        h=q["answer"]
+        p=q["answer"]
         n=input("Enter your answer:")
         if(n.strip().lower()==item["answer"].lower()):
             print("Correct answer")
             score=score+1
         else:
-            print("Incorrect answer, The correct answer is{}".format(h))
+            print("Incorrect answer, The correct answer is{}".format(p))
             score=score-0
     print("Congratulations {}, The quiz is over and your final score is{}".format(t,score))
 
